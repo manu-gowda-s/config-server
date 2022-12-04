@@ -1,0 +1,7 @@
+spring.config.import=optional:configserver:http://localhost:8888
+server.port=8081
+spring.application.name=limits-service
+
+## setting values for maximum and minimum
+limits-service.minimum=1
+limits-service.maximum=1000
